@@ -1,0 +1,11 @@
+{
+    "item": {
+        "shoePosition": "",
+        "sizePosition": ""
+    },
+    "personalInfo": {
+        "email": "",
+        "password": "",
+        "cvv": ""
+    }
+}
