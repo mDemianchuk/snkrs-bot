@@ -2,9 +2,10 @@ import json
 import logging
 
 
-def get_settings():
+def load_settings():
     try:
         with open("settings.json") as settings_file:
             return json.load(settings_file)
-    except:
+    except Exception as e:
         logging.error("Error while loading the settings file")
+        raise e
